@@ -1,0 +1,15 @@
+Source: cute-wallpapers
+Section: devel
+Priority: optional
+Maintainer: CuteOS <support@cuteos.com>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules
+Standards-Version: 4.5.0
+Homepage: https://cuteos.com
+
+Package: cute-wallpapers
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: CuteOS Wallpapers
